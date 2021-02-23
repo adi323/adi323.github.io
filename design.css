@@ -211,6 +211,16 @@
         top: 70%;
         font-size: 20px;
     }
+    .absk{
+        padding: 100px;
+        border-radius: 45px;
+        background-color: white;
+    }
+    .prsec{
+        background:white;
+        padding: 70px;
+        border-radius: 50px;
+    }
 }
 /*@media (max-width:954px){
     .home{
@@ -409,4 +419,43 @@
     transition: ease 0.2s;
     background-color: rgba(0, 0, 0, 0.1);
     border-bottom: 2px solid black;
+}
+
+.cn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    font-size: 25px;
+    display: inline-flex;
+    color: white;
+    background-color: black;
+}
+.cn i{
+    display: flex;
+}
+.cont{
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+#name,#email,#message,#submit{
+    margin: 50px;
+    height: 50px;
+    border: 2px solid royalblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 85%;
+    display: block;
+}
+#submit{
+    width: 150px;
+    height: 45px;
 }

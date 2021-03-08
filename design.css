@@ -159,86 +159,7 @@
 
 
 
-/* responsive part*/
-@media (max-width:1687px){
-    .sqr{
-        background-color: transparent;
-        position: absolute;
-        border: 15px solid #FFCDED;
-        width: 300px;
-        height: 250px;
-        z-index: 1;
-        top: 35%;
-        left: 40%;
-    }
-    .tile{
-        text-align: left;
-        align-items: center;
-        z-index: 2;
-        position: absolute;
-        display: inline-flex;
-        bottom: 0px;
-        justify-content: space-around;
-        padding: 25px;
-        height: 180px;
-        width: 65%;
-        border-radius: 20px;
-        background-color: black;
-        color: wheat;
-        right:50px;
-    }
-    .con{
-        display: block;
-        left: 20px;
-        bottom: 30px;
-        justify-content: center;
-        width: fit-content;
-        position: absolute;
-    }
-    .tit{
-        z-index: 2;
-        position: absolute;
-        right: 30px;
-        top: 50%;
-        width: fit-content;
-        font-size: 65px;
-    }
-    .txt{
-        z-index: 2;
-        position: absolute;
-        right: 15px;
-        width: fit-content;
-        top: 70%;
-        font-size: 20px;
-    }
-    .absk{
-        padding: 100px;
-        border-radius: 45px;
-        background-color: white;
-    }
-    .prsec{
-        background:white;
-        padding: 70px;
-        border-radius: 50px;
-    }
-}
-/*@media (max-width:954px){
-    .home{
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-        width: 100%;
-        height: fit-content;
-        padding: 5px;
-        background-color: white;
-    }
-    .photoframe .photo{
-        position: absolute;
-        left: 25px;
-        top: 50px;
-    }
-}*/
+
 .skills{
     width: 100%;
     height: fit-content;
@@ -258,7 +179,7 @@
 }
 
 .prsec{
-    background: #EBCFCF;
+    background: mistyrose;
     padding: 70px;
     border-radius: 50px;
 }
@@ -339,7 +260,7 @@
 .absk{
     padding: 100px;
     border-radius: 45px;
-    background-color: #A4B2A5;
+    background-color: #a3d2ca;
 }
 .about{
     justify-content: center;
@@ -446,16 +367,128 @@
     height: 400px;
     padding: 100px;
 }
-#name,#email,#message,#submit{
+#name,#email,#message{
     margin: 50px;
     height: 50px;
     border: 2px solid royalblue;
     padding-left: 15px;
+    border-radius: 15px;
     padding-right: 15px;
     width: 85%;
     display: block;
 }
+#name,#email{
+}
+#message{
+    height: 100px;
+}
+#submit{
+    background-color: beige;
+    margin: 50px;
+    height: 50px;
+    border: 2px solid royalblue;
+    padding-left: 15px;
+    border-radius: 15px;
+    padding-right: 15px;
+}
+.sub{
+    width: 100%;
+    display: block;
+}
 #submit{
     width: 150px;
-    height: 45px;
 }
+/* responsive part*/
+@media (max-width:1687px){
+    .sqr{
+        background-color: transparent;
+        position: absolute;
+        border: 15px solid #FFCDED;
+        width: 300px;
+        height: 250px;
+        z-index: 1;
+        top: 35%;
+        left: 40%;
+    }
+    .tile{
+        text-align: left;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+        display: inline-flex;
+        bottom: 0px;
+        justify-content: space-around;
+        padding: 25px;
+        height: 180px;
+        width: 65%;
+        border-radius: 20px;
+        background-color: black;
+        color: wheat;
+        right:50px;
+    }
+    .con{
+        display: block;
+        left: 20px;
+        bottom: 30px;
+        justify-content: center;
+        width: fit-content;
+        position: absolute;
+    }
+    .skills{
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        display: block;
+        top:100vh;
+        left:0;
+        padding: 25px;
+    }
+    .absk{
+        display: block;
+        padding: 70px;
+        width: 100%;
+        background-color: #a3d2ca;
+        border-radius: 45px;
+    }
+    .prsec{
+        display: block;
+        padding: 70px;
+        width: 100%;
+        background-color: mistyrose;
+        border-radius: 50px;
+    }
+    .tit{
+        z-index: 2;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        width: fit-content;
+        font-size: 65px;
+    }
+    .txt{
+        z-index: 2;
+        position: absolute;
+        right: 15px;
+        width: fit-content;
+        top: 70%;
+        font-size: 20px;
+    }
+    
+}
+/*@media (max-width:954px){
+    .home{
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+        background-color: white;
+    }
+    .photoframe .photo{
+        position: absolute;
+        left: 25px;
+        top: 50px;
+    }
+}*/
